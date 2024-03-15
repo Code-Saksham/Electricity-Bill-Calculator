@@ -20,10 +20,10 @@ function calculateBill() {
     var consumed3 = current3 - prev3;
 
     var resultElement = document.getElementById('result');
-    resultElement.innerHTML = "Electricity bill for 1st Floor: Rs" + bill1.toFixed(2) + "<br>";
-    resultElement.innerHTML += "Electricity bill for 2nd Floor: Rs" + bill2.toFixed(2) + "<br>";
-    resultElement.innerHTML += "Electricity bill for 3rd Floor: Rs" + bill3.toFixed(2) + "<br>";
-    resultElement.innerHTML += "Total electricity bill for all floors: Rs" + totalBill.toFixed(2);
+    resultElement.innerHTML = "Electricity bill for 1st Floor: Rs " + bill1.toFixed(2) + "<br>";
+    resultElement.innerHTML += "Electricity bill for 2nd Floor: Rs " + bill2.toFixed(2) + "<br>";
+    resultElement.innerHTML += "Electricity bill for 3rd Floor: Rs " + bill3.toFixed(2) + "<br>";
+    resultElement.innerHTML += "Total electricity bill for all floors: Rs " + totalBill.toFixed(2);
 
     document.getElementById('consumed1').innerHTML = "Units consumed: " + consumed1.toFixed(2);
     document.getElementById('consumed2').innerHTML = "Units consumed: " + consumed2.toFixed(2);
