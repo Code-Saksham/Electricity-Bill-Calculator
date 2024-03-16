@@ -7,6 +7,11 @@ function calculateBill() {
     var current3 = parseFloat(document.getElementById('current3').value) || 0;
     var recharge = parseFloat(document.getElementById('recharge').value) || 0;
 
+   if (isNaN(recharge) || recharge <= 0) {
+        alert("Please enter a valid recharge amount.");
+        return; // Exit the function
+    }
+
     var totalConsumedUnits = (current1 - prev1) + (current2 - prev2) + (current3 - prev3);
     var pricePerUnit = recharge / totalConsumedUnits || 0;
     
