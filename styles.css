@@ -21,14 +21,14 @@ h1 {
 }
 
 .form {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .floor {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 20px; /* Two-line gap between each floor */
+    margin-bottom: 0px; /* Two-line gap between each floor */
 }
 
 .floor:not(:last-child) {
